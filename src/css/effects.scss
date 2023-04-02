@@ -1,0 +1,31 @@
+.effect-background-fade-out {
+    background-color: rgba(140, 196, 178, 1);
+    animation-duration: 1.2s;
+    animation-name: background-fade-out;
+}
+
+@keyframes background-fade-out {
+    from {
+        background-color: rgba(140, 196, 178, 1);
+    }
+    to {
+        background-color: var(--sidebar-bg);
+    }
+}
+
+// @-webkit-keyframes button-fade {
+//     0% {
+//         opacity: 0;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// }
+// @keyframes button-fade {
+//     0% {
+//         opacity: 0;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// }
